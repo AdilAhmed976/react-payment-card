@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +28,74 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.out {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 14%;
+}
+
+
+.cards {
+  width: 50%;
+  /* border: 1px solid black; */
+  /* height: 16%; */
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-top: 2%;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px ;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+
+.two {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+i{
+  font-size: 34px;
+}
+.red {
+  background-color: orange;
+}
+.greeen {
+  background-color: green;
+}
+
+.date {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.name {
+  font-size: 44px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+.pay {
+  font-size: 34px;
+
 }
